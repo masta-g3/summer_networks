@@ -1,4 +1,4 @@
-# Summer Tutorials '16
-General data science tutorials and experiments performed during the summer 2016.
+# Summer Networks
+Neural Network and Deep Learning examples and experiments performed during the summer 2016.
 
-**Neural Networks:** Basic functioning of neural networks for classification. Based on [this] (http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/ "WILDML")  tutorial by Denny, from WILDML.
+**[Neural Networks](https://github.com/masta-g3/summer_networks/blob/master/neural_networks.ipynb):** Numpy-based implementation of a neural network for 2D classification. Reference:[WildML] (http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/).
