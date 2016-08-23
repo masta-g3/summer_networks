@@ -8,3 +8,5 @@ Neural Network examples and experiments performed during the summer of 2016. The
 * [**Numpy Bukowski**](https://github.com/masta-g3/summer_networks/blob/master/bukowski_networks/numpy_bukowski.ipynb): Recurrent neural network (RNN) using Numpy. Here I start using a collection of Bukowski's poems as training data.
 
 * [**Theano Bukowski**](https://github.com/masta-g3/summer_networks/blob/master/bukowski_networks/theano_bukowski.ipynb): Reimplementation of the Bukowski neural network, but now using Theano, as the base Numpy model takes significantly longer to run. Sample output poems are available here.
+
+* **LSTM Bukowski**: Final attempt to generate more coherent poems, using a LSTM neural network. Currently under construction.
