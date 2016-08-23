@@ -10,3 +10,5 @@ Neural Network examples and experiments performed during the summer of 2016. The
 * [**Theano Bukowski**](https://github.com/masta-g3/summer_networks/blob/master/bukowski_networks/theano_bukowski.ipynb): Reimplementation of the Bukowski neural network, but now using Theano, as the base Numpy model takes significantly longer to run. Sample output poems are available here.
 
 * **LSTM Bukowski**: Final attempt to generate more coherent poems, using a LSTM neural network. Currently under construction.
+
+* [**Sentiment Bukowski**](https://github.com/masta-g3/summer_networks/blob/master/bukowski_networks/sentiment_bukowski.ipynb): Sentiment analysis on the same set of poems used to build the neural networks. I look into the most common subjects occuring on the text, as well as associations the author makes when he is talking about men and women.
