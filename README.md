@@ -1,5 +1,5 @@
 # Summer Networks ('16)
-Neural Network examples and experiments performed during the summer of 2016. The first 2 sections are illustrative of how neural networks work in general, while on the last 2 I try to create a RNN that trains on Bukowski poems to write poems that look like his. All using Theano and Numpy, and following the excellent [WildML's tutorials](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/).
+Neural Network examples and experiments performed during the summer of 2016. The first 2 sections are illustrative of how neural networks work in general, while on the last 3 I try to create a RNN trained on Charles Bukowski's poems to write poems that look like his. All is done on Numpy and, and following the excellent [WildML's tutorials](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/).
 
 * [**Numpy Network**](https://github.com/masta-g3/summer_networks/blob/master/numpy_networks.ipynb): Base numpy-based implementation of a neural network for 2D classification.
 
