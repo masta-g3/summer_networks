@@ -12,7 +12,7 @@ class RNNTheano:
         self.bptt_max = bptt_max
 
         ## Randomly initialize network parameters. Set to uniform between
-        ## [-1/n, 1/n], where 'n' is the size of incoming connections.
+        ## [-1/n, 1/n], where 'n' is the number of incoming connections.
         E = np.random.uniform(-np.sqrt(1./w_dim), np.sqrt(1./w_dim), (h_dim, w_dim))
         U = np.random.uniform(-np.sqrt(1./h_dim), np.sqrt(1./h_dim), (8, h_dim, h_dim))
         W = np.random.uniform(-np.sqrt(1./h_dim), np.sqrt(1./h_dim), (8, h_dim, h_dim))
@@ -72,7 +72,7 @@ class RNNTheano:
 
             return [o_t, s1_t, s2_t, c1_t, c2_t]
 
-        ## Iterate over all observations
+        ## Iterate over all observations.
         [o, s, s2, c1, c2], updates = theano.scan(fwd_step,
                                       sequences=x,
                                       outputs_info=[None,
